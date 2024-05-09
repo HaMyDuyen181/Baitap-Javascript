@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4</title>
+    <link relsty="lesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+<body>
+    <div class=" container mt-5 ">
+        <h3 class="text-center">THÊM SINH VIÊN</h3>
+        <div class="row">
+            <div class="col-6">
+                <div class="mb-3">
+                    <label for="">Mã sinh viên</label>
+                    <input type="text" id="masv" class="form-control">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label for="">Họ tên</label>
+                    <input type="text" id="hoten" class="form-control">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="mb-3">
+                    <label for="">Lớp</label>
+                    <input type="text" id="lop" class="form-control">  
+                </div>
+            </div>
+                <div class="col-6">
+                    <div class="mb-3">
+                        <label for="">Ngày sinh</label>
+                        <input type="text" id="ngaysinh" class="form-control">  
+                    </div>
+                </div>
+                
+            </div>
+            <button class="btn btn-success" id="themsv">THÊM</button>
+            <h3 class="text-center">DANH SÁCH SINH VIÊN</h3>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Mã SV</th>
+                        <th>Họ tên</th>
+                        <th>Lớp</th>
+                        <th>Ngày sinh</th>
+                    </tr>
+                </thead>
+                <tbody id="show"></tbody>
+            </table>
+        </div>
+        <script src="buoi1_4.js"></script>
+</body>
+</html>
